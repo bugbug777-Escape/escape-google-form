@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>六角西餐廳</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container | pt-4">
+      <h1 class="text-center | mb-4">六角西餐廳</h1>
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeEYWWhZNeQqAokxNHDppNuAEAKakQaZcCpfTxPKQANunbtEQ/formResponse" method="post">
+        <!-- 聯絡資訊 -->
+        <div class="row">
+          <div class="col-md-6">
+            <label for="name" class="form-label">姓名</label>
+            <input id="name" name="entry.980915685" type="text" class="form-control | mb-3" />
+          </div>
+          <div class="col-md-6">
+            <label for="tel" class="form-label">電話</label>
+            <input id="tel" name="entry.1746791777" type="text" class="form-control | mb-3" />
+          </div>
+        </div>
+        <!-- 用餐日期 -->
+        <div class="mb-3">
+          <label for="date" class="form-label">日期</label>
+          <input id="date" name="entry.297605581" type="date" class="form-control" />
+        </div>
+        <!-- 用餐人數 -->
+        <div class="mb-3">
+          <label for="numbers" class="form-label">用餐人數</label>
+          <select id="numbers" name="entry.1879776779" class="form-select" aria-label="Default select numbers">
+            <option selected></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <!-- 其他項目 -->
+        <div class="mb-3">
+          <label for="" class="form-label">其他項目</label>
+          <div class="form-check">
+            <input
+              name="entry.2121007242"
+              class="form-check-input"
+              type="checkbox"
+              value="需要兒童座椅"
+              id="childChair"
+            />
+            <label class="form-check-label" for="childChair">
+              需要兒童座椅
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              name="entry.2121007242"
+              class="form-check-input"
+              type="checkbox"
+              value="素食餐點"
+              id="vegetarian"
+            />
+            <label class="form-check-label" for="vegetarian">
+              素食餐點
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              name="entry.2121007242"
+              class="form-check-input"
+              type="checkbox"
+              value="吸煙區"
+              id="smokeArea"
+            />
+            <label class="form-check-label" for="smokeArea">
+              吸煙區
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">送出</button>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
